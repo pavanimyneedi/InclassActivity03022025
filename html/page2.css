@@ -1,0 +1,182 @@
+/* ---- Team: Movie Max ----- */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+    margin: 0%;
+  }
+  
+  /* ---- Desktop ----- */
+  .main-class {
+    margin: 2%;
+  }
+  
+  .contact-text {
+    text-align: left;
+  }
+  
+  .contact-text h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3655c6;
+  }
+  
+  .contact-text p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #808080;
+  }
+  
+  .contact-text .title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .contact-text ul ul li {
+    font-size: 15px;
+    font-weight: 300;
+    color: #808080;
+  }
+  
+  .subscription {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .subscription h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3655c6;
+  }
+  
+  .table-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 7px 7px;
+  }
+  
+  th {
+    background-color: #3655c6;
+    color: #ffffff;
+    text-align: left;
+    padding: 1rem;
+  }
+  
+  td {
+    text-align: left;
+    padding: 1rem;
+    border-color: #c0c0ff;
+  }
+  
+  tr:nth-child(even):hover {
+    background-color: rgb(76, 76, 255);
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  tr:nth-child(odd):hover {
+    background-color: rgb(76, 76, 255);
+    color: #ffffff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2fe;
+  }
+  
+  .animation {
+    width: 100%;
+    height: 600px;
+  }
+  
+  .animation iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* ---- Tablet ----- */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .main-class {
+      margin: 3%;
+    }
+  
+    .contact-text h1 {
+      font-size: 18px;
+    }
+  
+    .subscription h1 {
+      font-size: 18px;
+    }
+  
+    .contact-text p {
+      font-size: 12px;
+    }
+  
+    .contact-text .title {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .contact-text ul ul li {
+      font-size: 12px;
+      font-weight: 300;
+      color: #808080;
+    }
+  
+    .animation {
+      width: 100%;
+      height: 400px;
+    }
+  
+    .subscription {
+      font-size: 16px;
+    }
+  }
+  
+  /* ---- Mobile ----- */
+  @media only screen and (max-width: 767px) {
+    .main-class {
+      margin: 5%;
+    }
+  
+    .contact-text h1 {
+      font-size: 14px;
+    }
+  
+    .subscription h1 {
+      font-size: 14px;
+    }
+  
+    .contact-text p {
+      font-size: 10px;
+    }
+    .contact-text .title {
+      font-size: 13px;
+      font-weight: 500;
+    }
+  
+    .contact-text ul ul li {
+      font-size: 10px;
+      font-weight: 300;
+      color: #808080;
+    }
+  
+    .animation {
+      width: 100%;
+      height: 300px;
+    }
+  
+    .subscription {
+      font-size: 12px;
+    }
+  }
+  
